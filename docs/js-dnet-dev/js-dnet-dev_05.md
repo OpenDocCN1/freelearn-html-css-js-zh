@@ -1722,9 +1722,6 @@ bootstrap component to bootstrap our first TodoAppComponent. HTTP_PROVIDERS cont
 
     ```js
     importer.js:
-    ```
-
-    ```js
       System.import('todosapp/Main')
         .then(null, console.error.bind(console));
     ```
@@ -1829,13 +1826,7 @@ bootstrap component to bootstrap our first TodoAppComponent. HTTP_PROVIDERS cont
         return this.http.delete(path + "/" + itemId);
       }
     }
-    ```
-
-    ```js
     TodoApp.Component.ts:
-    ```
-
-    ```js
     //todoApp.component.ts
     ///<reference path="../../node_modules/angular2/typings/browser.d.ts" />
     import {Component} from 'angular2/core';

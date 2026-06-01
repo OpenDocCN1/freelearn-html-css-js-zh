@@ -226,29 +226,11 @@ logger.error('This is an error message');
 
     ```js
     const { CloudWatchLogTransport } = require('winston-aws-cloudwatch');
-    ```
-
-    ```js
     new CloudWatchLogTransport({
-    ```
-
-    ```js
       logGroupName: 'your-log-group-name',
-    ```
-
-    ```js
       logStreamName: 'your-log-stream-name',
-    ```
-
-    ```js
       level: 'info',
-    ```
-
-    ```js
       formatLog: (info) => `${info.timestamp} ${info.message}`,
-    ```
-
-    ```js
     })
     ```
 
@@ -272,85 +254,25 @@ logger.error('This is an error message');
 
     ```js
     const winston = require('winston');
-    ```
-
-    ```js
     const logger = winston.createLogger({
-    ```
-
-    ```js
       format: winston.format.simple(),
-    ```
-
-    ```js
       transports: [
-    ```
-
-    ```js
         new winston.transports.Console(),
-    ```
-
-    ```js
         new winston.transports.File({ filename: 'error.log', level: 'error' }),
-    ```
-
-    ```js
         new winston.transports.File({ filename: 'combined.log' }),
-    ```
-
-    ```js
       ],
-    ```
-
-    ```js
       // Filtering to include only error logs in a specific file
-    ```
-
-    ```js
       exceptionHandlers: [
-    ```
-
-    ```js
         new winston.transports.File({ filename: 'exceptions.log' }),
-    ```
-
-    ```js
       ],
-    ```
-
-    ```js
     });
-    ```
-
-    ```js
     logger.info('This will be logged');
-    ```
-
-    ```js
     logger.error('This will be logged as an error');
-    ```
-
-    ```js
     // Manually throw an exception to trigger the exception handler
-    ```
-
-    ```js
     try {
-    ```
-
-    ```js
       throw new Error('This is a manually triggered exception');
-    ```
-
-    ```js
     } catch (error) {
-    ```
-
-    ```js
       logger.error('Caught an exception:', error);
-    ```
-
-    ```js
     }
     ```
 
@@ -362,89 +284,26 @@ logger.error('This is an error message');
 
     ```js
     const winston = require('winston');
-    ```
-
-    ```js
     const logger = winston.createLogger({
-    ```
-
-    ```js
       format: winston.format.simple(),
-    ```
-
-    ```js
       transports: [
-    ```
-
-    ```js
         new winston.transports.Console(),
-    ```
-
-    ```js
         new winston.transports.File({ filename: 'sampled.log' }),
-    ```
-
-    ```js
       ],
-    ```
-
-    ```js
     });
-    ```
-
-    ```js
     // Custom sampling function to log only 10% of the messages
-    ```
-
-    ```js
     const samplingFunction = (info) => Math.random() < 0.1 ? info : false;
-    ```
-
-    ```js
     logger.add(
-    ```
-
-    ```js
       new winston.transports.File({
-    ```
-
-    ```js
         filename: 'sampled.log',
-    ```
-
-    ```js
         format: winston.format.combine(
-    ```
-
-    ```js
           winston.format(info => samplingFunction(info))(),
-    ```
-
-    ```js
           winston.format.simple()
-    ```
-
-    ```js
         ),
-    ```
-
-    ```js
       })
-    ```
-
-    ```js
     );
-    ```
-
-    ```js
     for (let i = 0; i < 100; i++) {
-    ```
-
-    ```js
       logger.info(`Log message ${i}`);
-    ```
-
-    ```js
     }
     ```
 
@@ -456,73 +315,22 @@ logger.error('This is an error message');
 
     ```js
     const winston = require('winston');
-    ```
-
-    ```js
     const logger = winston.createLogger({
-    ```
-
-    ```js
       format: winston.format.simple(),
-    ```
-
-    ```js
       transports: [
-    ```
-
-    ```js
         new winston.transports.Console(),
-    ```
-
-    ```js
         new winston.transports.File({ filename: 'error.log', level: 'error' }),
-    ```
-
-    ```js
       ],
-    ```
-
-    ```js
       exceptionHandlers: [
-    ```
-
-    ```js
         new winston.transports.File({ filename: 'exceptions.log' }),
-    ```
-
-    ```js
       ],
-    ```
-
-    ```js
     });
-    ```
-
-    ```js
     // Example of logging an exception
-    ```
-
-    ```js
     try {
-    ```
-
-    ```js
       // Some code that might throw an exception
-    ```
-
-    ```js
       throw new Error('This is an exception');
-    ```
-
-    ```js
     } catch (error) {
-    ```
-
-    ```js
       logger.error('Caught an exception:', error);
-    ```
-
-    ```js
     }
     ```
 

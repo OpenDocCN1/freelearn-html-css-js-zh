@@ -154,21 +154,9 @@ console.log('Conditional assignment', x);
 
     ```js
     "scripts": {
-    ```
-
-    ```js
       "start": "node index.js",
-    ```
-
-    ```js
       "test": "echo \"Error: no test specified\" && exit
-    ```
-
-    ```js
         1"
-    ```
-
-    ```js
     }
     ```
 
@@ -176,17 +164,8 @@ console.log('Conditional assignment', x);
 
     ```js
     $ npm start
-    ```
-
-    ```js
     > example01@1.0.0 start
-    ```
-
-    ```js
     > node index.js
-    ```
-
-    ```js
     Conditional assignment 2
     ```
 
@@ -194,29 +173,11 @@ console.log('Conditional assignment', x);
 
     ```js
     $ npm start
-    ```
-
-    ```js
     > example01@1.0.0 start /home/node/examples/example01
-    ```
-
-    ```js
     > node index.js
-    ```
-
-    ```js
     /home/node/examples/example01/index.js:4
-    ```
-
-    ```js
     x &&= y;
-    ```
-
-    ```js
       ^^^
-    ```
-
-    ```js
     SyntaxError: Unexpected token '&&='
     ```
 
@@ -244,25 +205,10 @@ console.log('Conditional assignment', x);
 
     ```js
     $ npm start
-    ```
-
-    ```js
     > example01@1.0.0 start
-    ```
-
-    ```js
       /home/rapplf/Code/Articles/Node.js-for-Frontend-
-    ```
-
-    ```js
       Developers/Chapter04/example01
-    ```
-
-    ```js
     > babel-node index.js
-    ```
-
-    ```js
     Conditional assignment 2
     ```
 
@@ -294,13 +240,7 @@ square("2"); // Error!
 
     ```js
     $ npm init -y
-    ```
-
-    ```js
     $ npm install @babel/core @babel/node @babel/preset-
-    ```
-
-    ```js
       flow --save-dev
     ```
 
@@ -364,73 +304,22 @@ package.json
 
     ```js
     $ npx flow
-    ```
-
-    ```js
     Launching Flow server for
-    ```
-
-    ```js
       /home/node/examples/example02
-    ```
-
-    ```js
     Spawned flow server (pid=13278)
-    ```
-
-    ```js
     Logs will go to /tmp/flow/example02.log
-    ```
-
-    ```js
     Monitor logs will go to
-    ```
-
-    ```js
       /tmp/flow/example02.monitor_log
-    ```
-
-    ```js
     Error ![](img/011.png) index.js:6:8
-    ```
-
-    ```js
     Cannot call square with "2" bound to n because string
-    ```
-
-    ```js
      [1] is incompatible with number [2]. [incompatible-
-    ```
-
-    ```js
      call]
-    ```
-
-    ```js
      [2] 2│ function square(n: number): number {
-    ```
-
-    ```js
          3│   return n * n;
-    ```
-
-    ```js
          4│ }
-    ```
-
-    ```js
          5│
-    ```
-
-    ```js
      [1] 6│ square("2"); // Error!
-    ```
-
-    ```js
          7│
-    ```
-
-    ```js
     Found 1 error
     ```
 
@@ -452,9 +341,6 @@ TypeScript 是一种完整的编程语言，它被设计为 JavaScript 的超集
 
     ```js
     $ npm init -y
-    ```
-
-    ```js
     $ npm install typescript --save-dev
     ```
 
@@ -478,25 +364,10 @@ square("2"); // Error!
 
     ```js
     $ npx tsc index.ts
-    ```
-
-    ```js
     index.ts:5:8 - error TS2345: Argument of type 'string'
-    ```
-
-    ```js
       is not assignable to parameter of type 'number'.
-    ```
-
-    ```js
     5 square("2"); // Error!
-    ```
-
-    ```js
              ~~~
-    ```
-
-    ```js
     Found 1 error in index.ts:5
     ```
 
@@ -506,25 +377,10 @@ square("2"); // Error!
 
     ```js
     $ ls -l
-    ```
-
-    ```js
     -rw-r--r-- 1   64 index.js
-    ```
-
-    ```js
     -rw-r--r-- 1   79 index.ts
-    ```
-
-    ```js
     drwxr-xr-x 4 4096 node_modules
-    ```
-
-    ```js
     -rw-r--r-- 1  387 package-lock.json
-    ```
-
-    ```js
     -rw-r--r-- 1  278 package.json
     ```
 
@@ -555,37 +411,13 @@ tsconfig.json
 
     ```js
     $ npx tsc
-    ```
-
-    ```js
     src/index.ts:5:8 - error TS2345: Argument of type
-    ```
-
-    ```js
       'string' is not assignable to parameter of type
-    ```
-
-    ```js
       'number'.
-    ```
-
-    ```js
     5 square("2"); // Error!
-    ```
-
-    ```js
              ~~~
-    ```
-
-    ```js
     Found 1 error in src/index.ts:5
-    ```
-
-    ```js
     $ ls -l dist/
-    ```
-
-    ```js
     -rw-r--r-- 1   64 index.js
     ```
 

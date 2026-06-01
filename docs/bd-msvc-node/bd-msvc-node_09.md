@@ -176,49 +176,16 @@ CRUD 操作帮助我们高效地操作数据库，在日常工作中非常有用
 
     ```js
     //Firstly, we need to import the required library
-    ```
-
-    ```js
     const Joi = require('joi');
-    ```
-
-    ```js
     // We define the schema using Joi library with its parameters
-    ```
-
-    ```js
     const schema = Joi.object({
-    ```
-
-    ```js
       username: Joi.string().alphanum().min(3).max(30).required(),
-    ```
-
-    ```js
       email: Joi.string().email().required(),
-    ```
-
-    ```js
     });
-    ```
-
-    ```js
     // Validate request data
-    ```
-
-    ```js
     const { error, value } = schema.validate(req.body);
-    ```
-
-    ```js
     if (error) {
-    ```
-
-    ```js
       // Handle validation error
-    ```
-
-    ```js
     }
     ```
 
@@ -226,9 +193,6 @@ CRUD 操作帮助我们高效地操作数据库，在日常工作中非常有用
 
     ```js
     const DOMPurify = require('dompurify');
-    ```
-
-    ```js
     const sanitizedHTML = DOMPurify.sanitize(req.body.htmlInput);
     ```
 
@@ -236,17 +200,8 @@ CRUD 操作帮助我们高效地操作数据库，在日常工作中非常有用
 
     ```js
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    ```
-
-    ```js
     if (!emailRegex.test(req.body.email)) {
-    ```
-
-    ```js
       // Handle invalid email address
-    ```
-
-    ```js
     }
     ```
 
@@ -286,17 +241,8 @@ CRUD 操作帮助我们高效地操作数据库，在日常工作中非常有用
 
     ```js
     app.use((err, req, res, next) => {
-    ```
-
-    ```js
       console.error(err.stack);
-    ```
-
-    ```js
       res.status(500).send('Something went wrong!');
-    ```
-
-    ```js
     });
     ```
 
@@ -304,33 +250,12 @@ CRUD 操作帮助我们高效地操作数据库，在日常工作中非常有用
 
     ```js
     class CustomError extends Error {
-    ```
-
-    ```js
       constructor(message, statusCode) {
-    ```
-
-    ```js
         super(message);
-    ```
-
-    ```js
         this.statusCode = statusCode;
-    ```
-
-    ```js
       }
-    ```
-
-    ```js
     }
-    ```
-
-    ```js
     // Usage
-    ```
-
-    ```js
     throw new CustomError('Custom error message', 400);
     ```
 

@@ -104,33 +104,12 @@ RESTful API 设计遵循一系列原则以创建可扩展、可维护且易于�
 
     ```js
     const express = require('express');
-    ```
-
-    ```js
     const app = express();
-    ```
-
-    ```js
     app.get('/api/resource', (req, res) => {
-    ```
-
-    ```js
       res.send('Hello, API!');
-    ```
-
-    ```js
     });
-    ```
-
-    ```js
     app.listen(3000, () => {
-    ```
-
-    ```js
       console.log('Server is running on port 3000');
-    ```
-
-    ```js
     });
     ```
 
@@ -138,57 +117,18 @@ RESTful API 设计遵循一系列原则以创建可扩展、可维护且易于�
 
     ```js
     // Import the restify module
-    ```
-
-    ```js
     const restify = require('restify');
-    ```
-
-    ```js
     // Create a server instance
-    ```
-
-    ```js
     const server = restify.createServer();
-    ```
-
-    ```js
     // Define a GET handler for the /api/resource endpoint
-    ```
-
-    ```js
     server.get('/api/resource', (req, res, next) => {
-    ```
-
-    ```js
       // Send a response with the text "Hello, API!"
-    ```
-
-    ```js
       res.send('Hello, API!');
-    ```
-
-    ```js
     });
-    ```
-
-    ```js
     // Start the server and listen on port 3000
-    ```
-
-    ```js
     server.listen(3000, () => {
-    ```
-
-    ```js
       // Log a message to the console
-    ```
-
-    ```js
       console.log('Server is running on port 3000');
-    ```
-
-    ```js
     });
     ```
 
@@ -266,53 +206,17 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
         ```js
         const passport = require('passport');
-        ```
-
-        ```js
         const LocalStrategy = require('passport-local').Strategy;
-        ```
-
-        ```js
         passport.use(new LocalStrategy(
-        ```
-
-        ```js
           (username, password, done) => {
-        ```
-
-        ```js
             // Assuming a simple username/password check for demonstration purposes
-        ```
-
-        ```js
         if (username === 'same_name' && password === 'secret') {
-        ```
-
-        ```js
               const user = { id: 1, username: ' same_name' };
-        ```
-
-        ```js
               return done(null, user); // Authentication successful
-        ```
-
-        ```js
             } else {
-        ```
-
-        ```js
               return done(null, false); // Authentication failed
-        ```
-
-        ```js
             }
-        ```
-
-        ```js
           }
-        ```
-
-        ```js
         ));
         ```
 
@@ -324,41 +228,14 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
         ```js
         function isAdmin(req, res, next) {
-        ```
-
-        ```js
           if (req.user && req.user.role === 'admin') {
-        ```
-
-        ```js
             return next(); // User is authorized
-        ```
-
-        ```js
           }
-        ```
-
-        ```js
           res.status(403).send('Forbidden'); // User is not authorized
-        ```
-
-        ```js
         }
-        ```
-
-        ```js
         // Usage in a route
-        ```
-
-        ```js
         app.get('/admin/resource', isAdmin, (req, res) => {
-        ```
-
-        ```js
           // Handle the request for admin-only resource
-        ```
-
-        ```js
         });
         ```
 
@@ -368,45 +245,15 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     const jwt = require('jsonwebtoken');
-    ```
-
-    ```js
     // Generate a token
-    ```
-
-    ```js
     const token = jwt.sign({ userId: '123' }, 'secretKey', { expiresIn: '1h' });
-    ```
-
-    ```js
     // Verify a token
-    ```
-
-    ```js
     jwt.verify(token, 'secretKey', (err, decoded) => {
-    ```
-
-    ```js
       if (err) {
-    ```
-
-    ```js
         // Token is invalid
-    ```
-
-    ```js
       } else {
-    ```
-
-    ```js
         // Token is valid, use decoded data
-    ```
-
-    ```js
       }
-    ```
-
-    ```js
     });
     ```
 
@@ -424,53 +271,17 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     const Joi = require('joi');
-    ```
-
-    ```js
     const schema = Joi.object({
-    ```
-
-    ```js
       username: Joi.string().alphanum().min(3).max(30).required(),
-    ```
-
-    ```js
       password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')),
-    ```
-
-    ```js
     });
-    ```
-
-    ```js
     app.post('/api/register', (req, res) => {
-    ```
-
-    ```js
       const { error, value } = schema.validate(req.body);
-    ```
-
-    ```js
       if (error) {
-    ```
-
-    ```js
         res.status(400).send(error.details[0].message);
-    ```
-
-    ```js
       } else {
-    ```
-
-    ```js
         // Process the valid data
-    ```
-
-    ```js
       }
-    ```
-
-    ```js
     });
     ```
 
@@ -478,17 +289,8 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     // import the validator module
-    ```
-
-    ```js
     var validator = require('validator');
-    ```
-
-    ```js
     // check if the example email is a true email
-    ```
-
-    ```js
     validator.isEmail('foo@bar.com'); //=> true
     ```
 
@@ -500,9 +302,6 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
         ```js
         const DOMPurify = require('dompurify');
-        ```
-
-        ```js
         const sanitizedHTML = DOMPurify.sanitize(req.body.htmlInput);
         ```
 
@@ -512,17 +311,8 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
         ```js
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        ```
-
-        ```js
         if (!emailRegex.test(req.body.email)) {
-        ```
-
-        ```js
           // Handle invalid email address
-        ```
-
-        ```js
         }
         ```
 
@@ -560,17 +350,8 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     app.use((err, req, res, next) => {
-    ```
-
-    ```js
       console.error(err.stack);
-    ```
-
-    ```js
       res.status(500).send('Something went wrong!');
-    ```
-
-    ```js
     });
     ```
 
@@ -578,33 +359,12 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     class CustomError extends Error {
-    ```
-
-    ```js
       constructor(message, statusCode) {
-    ```
-
-    ```js
         super(message);
-    ```
-
-    ```js
         this.statusCode = statusCode;
-    ```
-
-    ```js
       }
-    ```
-
-    ```js
     }
-    ```
-
-    ```js
     // Usage
-    ```
-
-    ```js
     throw new CustomError('Custom error message', 400);
     ```
 
@@ -612,9 +372,6 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     const winston = require('winston');
-    ```
-
-    ```js
     winston.error('Error message', { error: err, request: req });
     ```
 
@@ -622,21 +379,9 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     app.get('/api/resource', (req, res, next) => {
-    ```
-
-    ```js
       const error = new Error('Resource not found');
-    ```
-
-    ```js
       error.status = 404;
-    ```
-
-    ```js
       next(error);
-    ```
-
-    ```js
     });
     ```
 
@@ -644,33 +389,12 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     app.get('/api/resource', async (req, res, next) => {
-    ```
-
-    ```js
       try {
-    ```
-
-    ```js
         const data = await fetchData();
-    ```
-
-    ```js
         res.json(data);
-    ```
-
-    ```js
       } catch (err) {
-    ```
-
-    ```js
         next(err);
-    ```
-
-    ```js
       }
-    ```
-
-    ```js
     });
     ```
 
@@ -686,45 +410,15 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     openapi: 3.0.0
-    ```
-
-    ```js
     info:
-    ```
-
-    ```js
       title: My API
-    ```
-
-    ```js
       version: 1.0.0
-    ```
-
-    ```js
     paths:
-    ```
-
-    ```js
       /api/resource:
-    ```
-
-    ```js
         get:
-    ```
-
-    ```js
           summary: Get resource
-    ```
-
-    ```js
           responses:
-    ```
-
-    ```js
             '200':
-    ```
-
-    ```js
               description: Successful response
     ```
 
@@ -732,25 +426,10 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     ## Get Resource [/api/resource]
-    ```
-
-    ```js
     + Response 200 (application/json)
-    ```
-
-    ```js
       + Body
-    ```
-
-    ```js
         {
-    ```
-
-    ```js
           "data": "Resource data"
-    ```
-
-    ```js
         }
     ```
 
@@ -760,33 +439,12 @@ API 版本控制对于在开发和部署 API 时保持更好的兼容性至关�
 
     ```js
     /**
-    ```
-
-    ```js
     * Get resource
-    ```
-
-    ```js
     * @route GET /api/resource
-    ```
-
-    ```js
     * @returns {object} 200 - Successful response
-    ```
-
-    ```js
     */
-    ```
-
-    ```js
     app.get('/api/resource', (req, res) => {
-    ```
-
-    ```js
       res.json({ data: 'Resource data' });
-    ```
-
-    ```js
     });
     ```**
 
@@ -812,13 +470,7 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
         ```js
         test('adds 1 + 2 to equal 3', () => {
-        ```
-
-        ```js
           expect(sum(1, 2)).toBe(3);
-        ```
-
-        ```js
         });
         ```
 
@@ -830,25 +482,10 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
         ```js
         const request = require('supertest');
-        ```
-
-        ```js
         const app = require('../app');
-        ```
-
-        ```js
         test('GET /api/resource returns 200', async () => {
-        ```
-
-        ```js
           const response = await request(app).get('/api/resource');
-        ```
-
-        ```js
           expect(response.status).toBe(200);
-        ```
-
-        ```js
         });
         ```
 
@@ -860,25 +497,10 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
         ```js
         describe('My API', () => {
-        ```
-
-        ```js
           it('successfully loads', () => {
-        ```
-
-        ```js
             cy.visit('/api/resource');
-        ```
-
-        ```js
             cy.contains('Resource data');
-        ```
-
-        ```js
           });
-        ```
-
-        ```js
         });
         ```
 
@@ -890,17 +512,8 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
         ```js
         const nock = require('nock');
-        ```
-
-        ```js
         nock('https://api.example.com')
-        ```
-
-        ```js
           .get('/data')
-        ```
-
-        ```js
           .reply(200, { data: 'Mocked data' });
         ```
 
@@ -912,29 +525,11 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
         ```js
         test.each([
-        ```
-
-        ```js
           [1, 2, 3],
-        ```
-
-        ```js
           [0, 0, 0],
-        ```
-
-        ```js
           [-1, 1, 0],
-        ```
-
-        ```js
         ])('adds %i + %i to equal %i', (a, b, expected) => {
-        ```
-
-        ```js
           expect(sum(a, b)).toBe(expected);
-        ```
-
-        ```js
         });
         ```
 
@@ -954,21 +549,9 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
     ```js
     // API Gateway route
-    ```
-
-    ```js
     app.get('/api/resource', (req, res) => {
-    ```
-
-    ```js
       // Forward request to the appropriate microservice
-    ```
-
-    ```js
       // ...
-    ```
-
-    ```js
     });
     ```
 
@@ -976,17 +559,8 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
     ```js
     upstream microservices {
-    ```
-
-    ```js
       server microservice1:3000;
-    ```
-
-    ```js
       server microservice2:3000;
-    ```
-
-    ```js
     }
     ```
 
@@ -994,25 +568,10 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
     ```js
     // API Gateway middleware
-    ```
-
-    ```js
     app.use('/api', (req, res, next) => {
-    ```
-
-    ```js
       // Authenticate and authorize the request
-    ```
-
-    ```js
       // ...
-    ```
-
-    ```js
       next();
-    ```
-
-    ```js
     });
     ```
 
@@ -1020,29 +579,11 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
     ```js
     const rateLimit = require('express-rate-limit');
-    ```
-
-    ```js
     const apiLimiter = rateLimit({
-    ```
-
-    ```js
       windowMs: 15 * 60 * 1000, // 15 minutes
-    ```
-
-    ```js
       max: 100, // limit each IP to 100 requests per windowMs
-    ```
-
-    ```js
     });
-    ```
-
-    ```js
     // Apply rate limiting to the API Gateway routes
-    ```
-
-    ```js
     app.use('/api', apiLimiter);
     ```
 
@@ -1050,21 +591,9 @@ API 测试对于确保微服务的可靠性和正确性至关重要。API 网关
 
     ```js
     // API Gateway route for response aggregation
-    ```
-
-    ```js
     app.get('/api/aggregated-resource', async (req, res) => {
-    ```
-
-    ```js
       // Call multiple microservices and aggregate responses
-    ```
-
-    ```js
       // ...
-    ```
-
-    ```js
     });
     ```
 

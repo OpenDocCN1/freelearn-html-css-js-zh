@@ -96,65 +96,20 @@
 
     ```js
     const jwt = require('jsonwebtoken');
-    ```
-
-    ```js
     // Middleware for authenticating requests
-    ```
-
-    ```js
     function authenticateToken(req, res, next) {
-    ```
-
-    ```js
       const token = req.header('Authorization');
-    ```
-
-    ```js
       if (!token) return res.sendStatus(401);
-    ```
-
-    ```js
       jwt.verify(token, 'your-secret-key', (err, user) => {
-    ```
-
-    ```js
         if (err) return res.sendStatus(403);
-    ```
-
-    ```js
         req.user = user;
-    ```
-
-    ```js
         next();
-    ```
-
-    ```js
       });
-    ```
-
-    ```js
     }
-    ```
-
-    ```js
     // Example route that requires authentication
-    ```
-
-    ```js
     app.get('/api/resource', authenticateToken, (req, res) => {
-    ```
-
-    ```js
       // Process the request for authenticated users
-    ```
-
-    ```js
       res.json({ message: 'Access granted!' });
-    ```
-
-    ```js
     });
     ```
 
@@ -172,57 +127,18 @@
 
     ```js
     // Middleware for role-based authorization
-    ```
-
-    ```js
     function authorize(role) {
-    ```
-
-    ```js
       return (req, res, next) => {
-    ```
-
-    ```js
         if (req.user && req.user.role === role) {
-    ```
-
-    ```js
           return next(); // User has the required role
-    ```
-
-    ```js
         }
-    ```
-
-    ```js
         res.status(403).send('Forbidden'); // User does not have the required role
-    ```
-
-    ```js
       };
-    ```
-
-    ```js
     }
-    ```
-
-    ```js
     // Example route that requires a specific role
-    ```
-
-    ```js
     app.get('/api/admin/resource', authenticateToken, authorize('admin'), (req, res) => {
-    ```
-
-    ```js
       // Process the request for users with the 'admin' role
-    ```
-
-    ```js
       res.json({ message: 'Admin access granted!' });
-    ```
-
-    ```js
     });
     ```
 

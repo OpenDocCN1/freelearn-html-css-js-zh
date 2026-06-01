@@ -215,25 +215,10 @@ $ npm install eslint-plugin-prefer-arrow --save-dev
 
     ```js
     $ npx eslint .
-    ```
-
-    ```js
     /home/node/Chapter05/example01/index.js
-    ```
-
-    ```js
       1:8  error  Use const or class constructors instead
-    ```
-
-    ```js
       of named functions  prefer-arrow/prefer-arrow-
-    ```
-
-    ```js
       functions
-    ```
-
-    ```js
     ![](img/012.png) 1 problem (1 error, 0 warnings)
     ```
 
@@ -279,9 +264,6 @@ Stylelint 是一个用于 CSS 文件的代码检查工具，并且可以扩展�
 
     ```js
     $ npm install stylelint stylelint-config-standard
-    ```
-
-    ```js
       --save-dev
     ```
 
@@ -323,69 +305,21 @@ p {
 
     ```js
     $ npx stylelint style.css
-    ```
-
-    ```js
     style.css
-    ```
-
-    ```js
      2:5   ![](img/012.png)  Expected indentation of 2 spaces
-    ```
-
-    ```js
        indentation
-    ```
-
-    ```js
      3:5   ![](img/012.png)  Unexpected shorthand "padding" after
-    ```
-
-    ```js
       "padding-left"  declaration-block-no-shorthand-
-    ```
-
-    ```js
       property-overrides
-    ```
-
-    ```js
      3:5   ![](img/012.png)  Expected indentation of 2 spaces
-    ```
-
-    ```js
        indentation
-    ```
-
-    ```js
      5:1   ![](img/012.png)  Expected empty line before rule
-    ```
-
-    ```js
        rule-empty-line-before
-    ```
-
-    ```js
      6:5![](img/012.png)  Expected indentation of 2 spaces
-    ```
-
-    ```js
        indentation
-    ```
-
-    ```js
      6:12  ![](img/012.png)  Unexpected invalid hex color "#44"
-    ```
-
-    ```js
        color-no-invalid-hex
-    ```
-
-    ```js
      7:1   ![](img/012.png)  Unexpected missing end-of-source newline
-    ```
-
-    ```js
        no-missing-end-of-source-newline
     ```
 
@@ -393,29 +327,11 @@ p {
 
     ```js
     $ npx stylelint style.css --fix
-    ```
-
-    ```js
     style.css
-    ```
-
-    ```js
      3:5   ![](img/012.png)  Unexpected shorthand "padding" after
-    ```
-
-    ```js
       "padding-left"  declaration-block-no-shorthand-
-    ```
-
-    ```js
       property-overrides
-    ```
-
-    ```js
      6:12  ![](img/012.png)  Unexpected invalid hex color "#44"
-    ```
-
-    ```js
        color-no-invalid-hex
     ```
 
@@ -441,17 +357,8 @@ Prettier 是一款与众多不同源文件兼容的代码格式化工具。在�
 
     ```js
     $ npx prettier index.js
-    ```
-
-    ```js
     export function div(a, b) {
-    ```
-
-    ```js
       return a / b;
-    ```
-
-    ```js
     }
     ```
 
@@ -475,17 +382,8 @@ Prettier 是一款与众多不同源文件兼容的代码格式化工具。在�
 
     ```js
     $ npx prettier index.js
-    ```
-
-    ```js
     export function div(a, b) {
-    ```
-
-    ```js
         return a / b
-    ```
-
-    ```js
     }
     ```
 
@@ -495,9 +393,6 @@ Prettier 是一款与众多不同源文件兼容的代码格式化工具。在�
 
     ```js
     $ npx prettier index.js --write
-    ```
-
-    ```js
     index.js 41ms
     ```
 

@@ -130,29 +130,11 @@
 
     ```js
     const material = new THREE.MeshBasicMaterial({
-    ```
-
-    ```js
       color: 0xff0000,
-    ```
-
-    ```js
       name: 'material-1',
-    ```
-
-    ```js
       opacity: 0.5,
-    ```
-
-    ```js
       transparency: true,
-    ```
-
-    ```js
       ...
-    ```
-
-    ```js
     })
     ```
 
@@ -160,17 +142,8 @@
 
     ```js
     const material = new THREE.MeshBasicMaterial();
-    ```
-
-    ```js
     material.color = new THREE.Color(0xff0000);
-    ```
-
-    ```js
     material.name = 'material-1'; material.opacity = 0.5;
-    ```
-
-    ```js
     material.transparency = true;
     ```
 

@@ -193,33 +193,12 @@ $ npm run build
 
     ```js
     $ npm run serve
-    ```
-
-    ```js
     > ltjs-fourth@1.0.0 serve
-    ```
-
-    ```js
     > webpack serve –open
-    ```
-
-    ```js
     <i> [webpack-dev-server] Project is running at:
-    ```
-
-    ```js
     <i> [webpack-dev-server] Loopback: http://localhost:8080/
-    ```
-
-    ```js
     <i> [webpack-dev-server] On Your Network (Ipv4): http://192.168.68.144:8080/
-    ```
-
-    ```js
     <i> [webpack-dev-server] On Your Network (Ipv6): http://[fe80::1]:8080/
-    ```
-
-    ```js
     …
     ```
 

@@ -367,10 +367,6 @@ sass: {
 
     ```js
     body {
-
-    ```
-
-    ```js
       background-color: #fff;
       background-image: url("background.png");
       color: #000;

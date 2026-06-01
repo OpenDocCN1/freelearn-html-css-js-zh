@@ -88,65 +88,20 @@
 
     ```js
     // Import required modules
-    ```
-
-    ```js
     const express = require('express');
-    ```
-
-    ```js
     const app = express();
-    ```
-
-    ```js
     // Debug endpoint to get the health status of the microservice
-    ```
-
-    ```js
     app.get('/debug/health', (req, res) => {
-    ```
-
-    ```js
     // Check the health status of the microservice
-    ```
-
-    ```js
     // Return appropriate response based on the health status
-    ```
-
-    ```js
     // You can include more detailed debugging information if required
-    ```
-
-    ```js
     res.json({ status: 'healthy', message: 'Microservice is running fine' }); });
-    ```
-
-    ```js
     // Debug endpoint to get system information
-    ```
-
-    ```js
     app.get('/debug/system', (req, res) => {
-    ```
-
-    ```js
     // Retrieve system information such as memory usage, CPU load, etc.
-    ```
-
-    ```js
     // Return the system information as a JSON response
-    ```
-
-    ```js
     res.json({ memoryUsage: process.memoryUsage(), cpuUsage: process.cpuUsage() }); });
-    ```
-
-    ```js
     // Start the server
-    ```
-
-    ```js
     const port = 3000; app.listen(port, () => { console.log(`Microservice debug endpoints are listening on port ${port}`); });
     ```
 
@@ -356,33 +311,12 @@
 
     ```js
     const assert = require('assert');
-    ```
-
-    ```js
     function add(a, b) { return a + b; }
-    ```
-
-    ```js
     // Unit test for the add function
-    ```
-
-    ```js
     function testAdd() {
-    ```
-
-    ```js
     const result = add(2, 3);
-    ```
-
-    ```js
     assert.strictEqual(result, 5, 'Expected add(2, 3) to equal 5'); }
-    ```
-
-    ```js
     testAdd();
-    ```
-
-    ```js
     console.log('All tests passed');
     ```
 

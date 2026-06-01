@@ -558,9 +558,6 @@ Android 设备上的视图应该是这样的：
         if (mapView.recordingPath)
         {
           mapView.actionButton.innerHTML = __T("STOP");
-    ```
-
-    ```js
         }
         else
         {

@@ -45,9 +45,6 @@
     </script>
     <Child message={message} />
     Child component and passed the message prop to it. The child component, implemented in the following code snippet, then uses this message prop to display text within a <p> element:
-    ```
-
-    ```js
     <script>
       export let message;
     </script>
