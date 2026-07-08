@@ -1,6 +1,6 @@
 # Node 微服务构建指南
 
-> 原文：[`zh.annas-archive.org/md5/0c199f44dada0663959fa9caba4969e8`](https://zh.annas-archive.org/md5/0c199f44dada0663959fa9caba4969e8)
+> 原文：[Building Microservices with Node.js: Explore microservices applications and migrate from a monolith architecture to microservices](https://zh.annas-archive.gl/md5/0c199f44dada0663959fa9caba4969e8)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

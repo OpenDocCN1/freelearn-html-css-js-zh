@@ -1,6 +1,6 @@
 # ECMAScript 秘籍
 
-> 原文：[`zh.annas-archive.org/md5/dcb353bf82ec33c011f5368f5e2a7957`](https://zh.annas-archive.org/md5/dcb353bf82ec33c011f5368f5e2a7957)
+> 原文：[ECMASCRIPT COOKBOOK : over 70 recipes to help you learn the new ecmascript (es6/es8) features and solve common javascript problems;over 70 recipes](https://zh.annas-archive.gl/md5/dcb353bf82ec33c011f5368f5e2a7957)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

@@ -1,6 +1,6 @@
 # TypeScript 研讨会
 
-> 原文：[`zh.annas-archive.org/md5/4e3ff648672eea803b67f47091a10d37`](https://zh.annas-archive.org/md5/4e3ff648672eea803b67f47091a10d37)
+> 原文：[The TypeScript Workshop : A Practical Guide to Confident, Effective TypeScript Programming](https://zh.annas-archive.gl/md5/4e3ff648672eea803b67f47091a10d37)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

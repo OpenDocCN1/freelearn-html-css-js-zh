@@ -1,6 +1,6 @@
 # 面向 Flash 开发者的 HTML5
 
-> 原文：[`zh.annas-archive.org/md5/EE4F7F02D625483135EC01062083BBEA`](https://zh.annas-archive.org/md5/EE4F7F02D625483135EC01062083BBEA)
+> 原文：[HTML5 for Flash Developers](https://zh.annas-archive.gl/md5/EE4F7F02D625483135EC01062083BBEA)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

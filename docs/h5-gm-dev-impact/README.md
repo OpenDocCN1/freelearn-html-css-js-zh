@@ -1,6 +1,6 @@
 # ImpactJS HTML5 游戏开发
 
-> 原文：[`zh.annas-archive.org/md5/441DA316F62E4350E9115A286AB618B0`](https://zh.annas-archive.org/md5/441DA316F62E4350E9115A286AB618B0)
+> 原文：[HTML5 game development with ImpactJS : a step-by-step guide to developing your own 2D games](https://zh.annas-archive.gl/md5/441DA316F62E4350E9115A286AB618B0)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

@@ -1,6 +1,6 @@
 # MEAN 蓝图
 
-> 原文：[`zh.annas-archive.org/md5/7fbede1e27be02d3d720ab3e0d820ee8`](https://zh.annas-archive.org/md5/7fbede1e27be02d3d720ab3e0d820ee8)
+> 原文：[MEAN blueprints : unlock the power of the MEAN stack by creating attractive and real-world projects](https://zh.annas-archive.gl/md5/7fbede1e27be02d3d720ab3e0d820ee8)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

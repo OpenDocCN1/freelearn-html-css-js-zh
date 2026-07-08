@@ -1,6 +1,6 @@
 # Express.js 蓝图
 
-> 原文：[`zh.annas-archive.org/md5/9c3ced3a53720027486a1c785afc0e9c`](https://zh.annas-archive.org/md5/9c3ced3a53720027486a1c785afc0e9c)
+> 原文：[Express.js blueprints : learn to use Express.js pragmatically by creating five fun and robust real-world APIs, with a bonus chapter on Koa.js](https://zh.annas-archive.gl/md5/9c3ced3a53720027486a1c785afc0e9c)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

@@ -1,6 +1,6 @@
 # JavaScript 领域驱动设计
 
-> 原文：[`zh.annas-archive.org/md5/CC079113B860BF21A8B35D4B14B4E853`](https://zh.annas-archive.org/md5/CC079113B860BF21A8B35D4B14B4E853)
+> 原文：[JavaScript Domain-Driven Design : Speed up Your Application Development by Leveraging the Patterns of Domain-driven Design](https://zh.annas-archive.gl/md5/CC079113B860BF21A8B35D4B14B4E853)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

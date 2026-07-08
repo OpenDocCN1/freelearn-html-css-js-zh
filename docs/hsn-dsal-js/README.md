@@ -1,6 +1,6 @@
 # JavaScript 数据结构和算法实用手册
 
-> 原文：[`zh.annas-archive.org/md5/929680AA3DCF1ED8FDD0EBECC6F0F541`](https://zh.annas-archive.org/md5/929680AA3DCF1ED8FDD0EBECC6F0F541)
+> 原文：[Hands-On Data Structures and Algorithms with JavaScript : Write Efficient Code That Is Highly Performant, Scalable, and Easily Testable Using JavaScript](https://zh.annas-archive.gl/md5/929680AA3DCF1ED8FDD0EBECC6F0F541)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

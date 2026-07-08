@@ -1,6 +1,6 @@
 # 精通 JavaScript 高性能
 
-> 原文：[`zh.annas-archive.org/md5/582AFDEF15013377BB79AB8CEA3B2B47`](https://zh.annas-archive.org/md5/582AFDEF15013377BB79AB8CEA3B2B47)
+> 原文：[Mastering JavaScript high performance : master the art of building, deploying, and optimizing faster web applications with JavaScript](https://zh.annas-archive.gl/md5/582AFDEF15013377BB79AB8CEA3B2B47)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

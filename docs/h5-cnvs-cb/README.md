@@ -1,6 +1,6 @@
 # HTML5 画布秘籍
 
-> 原文：[`zh.annas-archive.org/md5/5BECA7AD01229D44A883D4EFCAD8E67B`](https://zh.annas-archive.org/md5/5BECA7AD01229D44A883D4EFCAD8E67B)
+> 原文：[HTML5 Canvas cookbook : over 80 recipes to revolutionize the web experience with HTML5 Canvas](https://zh.annas-archive.gl/md5/5BECA7AD01229D44A883D4EFCAD8E67B)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

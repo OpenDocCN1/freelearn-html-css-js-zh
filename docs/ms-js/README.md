@@ -1,6 +1,6 @@
 # 精通 JavaScript
 
-> 原文：[`zh.annas-archive.org/md5/866633107896D180D34D9AC33F923CF3`](https://zh.annas-archive.org/md5/866633107896D180D34D9AC33F923CF3)
+> 原文：[Mastering Javascript Premium Edition](https://zh.annas-archive.gl/md5/866633107896D180D34D9AC33F923CF3)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

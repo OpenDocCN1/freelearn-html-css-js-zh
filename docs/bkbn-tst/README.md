@@ -1,6 +1,6 @@
 # Backbone.js 测试指南
 
-> 原文：[`zh.annas-archive.org/md5/425c1105a3d3b7671db0e1d91de4ced0`](https://zh.annas-archive.org/md5/425c1105a3d3b7671db0e1d91de4ced0)
+> 原文：[Backbone.js testing : plan, architect, and develop tests for Backbone.js applications using modern testing principles and practices](https://zh.annas-archive.gl/md5/425c1105a3d3b7671db0e1d91de4ced0)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

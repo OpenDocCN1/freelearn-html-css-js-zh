@@ -1,6 +1,6 @@
 # Chart.js 学习指南
 
-> 原文：[`zh.annas-archive.org/md5/627a099052505a6268dd41b5e05f2886`](https://zh.annas-archive.org/md5/627a099052505a6268dd41b5e05f2886)
+> 原文：[Learn Chart. Js: Create Interactive Visualizations for the Web with Chart. Js 2](https://zh.annas-archive.gl/md5/627a099052505a6268dd41b5e05f2886)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

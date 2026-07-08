@@ -1,6 +1,6 @@
 # Ionic 框架示例
 
-> 原文：[`zh.annas-archive.org/md5/487bbbb59d8576c4529a806b20878e36`](https://zh.annas-archive.org/md5/487bbbb59d8576c4529a806b20878e36)
+> 原文：[Ionic Framework By Example : Click Here to Enter Text.](https://zh.annas-archive.gl/md5/487bbbb59d8576c4529a806b20878e36)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

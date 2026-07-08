@@ -1,6 +1,6 @@
 # WebStorm 精要
 
-> 原文：[`zh.annas-archive.org/md5/877760a9c4c300b84f0f06b330101613`](https://zh.annas-archive.org/md5/877760a9c4c300b84f0f06b330101613)
+> 原文：[WebStorm essentials : build efficient HTML, CSS, and JavaScript applications using the powerful WebStorm IDE](https://zh.annas-archive.gl/md5/877760a9c4c300b84f0f06b330101613)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

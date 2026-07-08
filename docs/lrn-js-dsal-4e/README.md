@@ -1,6 +1,6 @@
 # JavaScript 数据结构和算法学习指南第四版
 
-> 原文：[`zh.annas-archive.org/md5/7e09bf5d52a7802ecd8a14ab3775a3b6`](https://zh.annas-archive.org/md5/7e09bf5d52a7802ecd8a14ab3775a3b6)
+> 原文：[Learning JavaScript Data Structures and Algorithms, 4th Edition (Early Access)](https://zh.annas-archive.gl/md5/7e09bf5d52a7802ecd8a14ab3775a3b6)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

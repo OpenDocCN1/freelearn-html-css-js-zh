@@ -1,6 +1,6 @@
 # JavaScriptMVC 学习指南
 
-> 原文：[`zh.annas-archive.org/md5/0cd0f52d5cb193918547ba5bb9825273`](https://zh.annas-archive.org/md5/0cd0f52d5cb193918547ba5bb9825273)
+> 原文：[Learning JavaScriptMVC : learn to build well-structured JavaScript web applications using JavaScriptMVC](https://zh.annas-archive.gl/md5/0cd0f52d5cb193918547ba5bb9825273)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

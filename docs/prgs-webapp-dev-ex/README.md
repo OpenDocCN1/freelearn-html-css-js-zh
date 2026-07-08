@@ -1,6 +1,6 @@
 # 渐进式 Web 应用开发实例
 
-> 原文：[`zh.annas-archive.org/md5/162e1266ca9f0812d6595dc1e62fe6f8`](https://zh.annas-archive.org/md5/162e1266ca9f0812d6595dc1e62fe6f8)
+> 原文：[Progressive web application development by example : develop fast, reliable, and engaging user experiences for the web](https://zh.annas-archive.gl/md5/162e1266ca9f0812d6595dc1e62fe6f8)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

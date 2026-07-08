@@ -1,6 +1,6 @@
 # JavaScript 高级编程
 
-> 原文：[`zh.annas-archive.org/md5/C01E768309CC6F31A9A1148399C85D90`](https://zh.annas-archive.org/md5/C01E768309CC6F31A9A1148399C85D90)
+> 原文：[Mastering Javascript Design Patterns - Third Edition: Create Scalable And Reliable Applications With Advanced Javascript Design Patterns Using Reliable Code.](https://zh.annas-archive.gl/md5/C01E768309CC6F31A9A1148399C85D90)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

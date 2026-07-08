@@ -1,6 +1,6 @@
 # 响应式 Web 设计指南
 
-> 原文：[`zh.annas-archive.org/md5/50CFC4166B37BD720D7E83B7A7DE4DFD`](https://zh.annas-archive.org/md5/50CFC4166B37BD720D7E83B7A7DE4DFD)
+> 原文：[Responsive Web Design by Example : Beginner's Guide - Second Edition](https://zh.annas-archive.gl/md5/50CFC4166B37BD720D7E83B7A7DE4DFD)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

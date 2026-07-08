@@ -1,6 +1,6 @@
 # Bootstrap 精要
 
-> 原文：[`zh.annas-archive.org/md5/959604499245bca614ac47a91aedad82`](https://zh.annas-archive.org/md5/959604499245bca614ac47a91aedad82)
+> 原文：[Bootstrap essentials : use the powerful features of Bootstrap to create responsive and appealing web pages](https://zh.annas-archive.gl/md5/959604499245bca614ac47a91aedad82)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

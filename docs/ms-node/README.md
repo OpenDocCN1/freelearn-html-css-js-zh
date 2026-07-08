@@ -1,6 +1,6 @@
 # 精通 NodeJS
 
-> 原文：[`zh.annas-archive.org/md5/54EB7E80445F684EF94B4738A0764C40`](https://zh.annas-archive.org/md5/54EB7E80445F684EF94B4738A0764C40)
+> 原文：[Mastering Node.js: Expert techniques for building fast servers and scalable, real-time network applications with minimal effort (Community Experience Distilled)](https://zh.annas-archive.gl/md5/54EB7E80445F684EF94B4738A0764C40)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 

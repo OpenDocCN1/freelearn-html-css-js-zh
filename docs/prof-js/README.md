@@ -1,6 +1,6 @@
 # JavaScript 专家级编程
 
-> 原文：[`zh.annas-archive.org/md5/918F303F1357704D1EED66C3323DB7DD`](https://zh.annas-archive.org/md5/918F303F1357704D1EED66C3323DB7DD)
+> 原文：[Professional JavaScript : Fast-track Your Web Development Career Using the Powerful Features of Advanced JavaScript](https://zh.annas-archive.gl/md5/918F303F1357704D1EED66C3323DB7DD)
 > 
 > 译者：[飞龙](https://github.com/wizardforcel)
 > 
