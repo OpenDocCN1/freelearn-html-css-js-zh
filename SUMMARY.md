@@ -94,6 +94,7 @@
 +   [写给 Python 开发者的 JavaScript 实用指南](docs/hsn-js-py-dev/README.md)
 +   [JavaScript 微服务实用指南](docs/hsn-msvc-js/README.md)
 +   [JavaScript 机器人实用指南](docs/hsn-rbt-js/README.md)
++   [无障碍包容性设计](docs/inclusive-design-for-accessibility/README.md)
 +   [Ember.js 应用开发即时操作指南](docs/ins-ember-appdev-hwt/README.md)
 +   [Ext.js 即时入门](docs/ins-extjs-st/README.md)
 +   [HTML5 地理位置即时操作指南](docs/ins-h5-geoloc-hwt/README.md)
